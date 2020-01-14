@@ -19,10 +19,6 @@ class String
     self.split.size
     self.split(/[.!?]/).reject {|x| x.empty?}.size
 
-
-
-
-
     # binding.pry
   end
 end
